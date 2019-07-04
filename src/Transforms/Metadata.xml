@@ -1,0 +1,68 @@
+﻿<metadata>
+
+    <attr path="/api/package[@name='com.twilio.voice']" name="managedName">TwilioVoice</attr>
+    
+    <attr 
+        path="/api/package[@name='com.twilio.voice']/interface[@name='UnregistrationListener']/method[@name='onError']"
+        name="argsType">UnregistrationErrorEventArgs</attr>
+        
+    <attr
+        path="/api/package[@name='com.twilio.voice']/class[@name='Call']/method[@name='onWarning']/parameter[@name='p0']"
+        name="managedName">warningDetails</attr>
+    <attr 
+        path="/api/package[@name='com.twilio.voice']/class[@name='InternalCall']/method[@name='onWarning']/parameter[@name='warningDetails']" 
+        name="type">System.Collections.IDictionary</attr>
+    <attr 
+        path="/api/package[@name='com.twilio.voice']/class[@name='Call']/method[@name='onWarning']/parameter[@name='p0']" 
+        name="type">System.Collections.IDictionary</attr>
+    
+    <attr
+        path="/api/package[@name='com.twilio.voice']/class[@name='InternalCall']"
+        name="visibility">public</attr>
+    
+    <attr
+        path="/api/package[@name='com.twilio.voice']/class[@name='InternalCall']/method[@name='getState' and count(parameter)=0]"
+        name="propertyName"></attr>
+    
+    <attr
+        path="/api/package[@name='com.twilio.voice']/class[@name='InternalCall']/method[@name='getState' and count(parameter)=0]"
+        name="managedName">GetState</attr>
+    
+    <attr
+        path="/api/package[@name='com.twilio.voice']/interface[@name='Call.EventListener']"
+        name="visibility">public</attr>
+    
+    <remove-node 
+        path="/api/package[@name='com.twilio.voice']/interface[@name='Call.EventListener']"/>
+    
+    <remove-node
+        path="/api/package[@name='mono.com.twilio.voice']/class[@name='Call_EventListenerImplementor']"/>
+    
+<!--     <attr
+        path="/api/package[@name='mono.com.twilio.voice']/class[@name='Call_EventListenerImplementor']"
+        name="managedName"></attr>
+    
+    <attr
+        path="/api/package[@name='com.twilio.voice']/interface[@name='Call.EventListener']"
+        name="managedName"></attr>-->
+    
+    <!--  <attr path="/api/package[@name='com.twilio.voice.impl.session']" name="managedName">TwilioVoice.Session</attr>-->
+<!--  <attr path="/api/package[@name='com.twilio.voice.impl.session.events']" name="managedName">TwilioVoice.Session.Events</attr>-->
+<!--  <attr path="/api/package[@name='com.twilio.voice.impl.useragent']" name="managedName">TwilioVoice.UAgent</attr>-->
+<!--  <attr path="/api/package[@name='com.twilio.voice.impl.useragent.config']" name="managedName">TwilioVoice.UAgent.Config</attr>-->
+  
+<!--  <attr path="/api/package[@name='com.twilio.voice']/class[@name='InternalCall']" name="visibility">public</attr>-->
+  
+<!--  <attr path="/api/package[@name='com.twilio.voice']/class[@name='Call']/method[@name='onWarning']/parameter[@name='p0']" name="managedName">warningDetails</attr>-->
+<!--  <attr path="/api/package[@name='com.twilio.voice']/class[@name='InternalCall']/method[@name='onWarning']/parameter[@name='warningDetails']" name="type">System.Collections.IDictionary</attr>-->
+<!--  <attr path="/api/package[@name='com.twilio.voice']/class[@name='Call']/method[@name='onWarning']/parameter[@name='p0']" name="type">System.Collections.IDictionary</attr>-->
+    
+<!--  <attr path="/api/package[@name='com.twilio.voice']/
+        interface[@name='RegistrationListener']/method[@name='onError']"
+        name="argsType">RegistrationErrorEventArgs</attr>-->
+ <!-- <attr path="/api/package[@name='com.twilio.voice']/
+        interface[@name='UnregistrationListener']/method[@name='onError']"
+        name="argsType">UnregistrationErrorEventArgs</attr>-->
+  <!--<attr path="/api/package[@name='com.twilio.voice']/class[@name='Call']/method[@name='onWarning' and count(parameter)=1 and parameter[1][@type='java.util.HashMap']]/parameter[1]" name="type">java.util.HashMap&lt;java.lang.String, java.lang.Object&gt;</attr>-->
+
+</metadata>
