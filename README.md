@@ -41,7 +41,7 @@ Download aar/jar version you needed from https://bintray.com/twilio/releases/voi
 
 [delegate sample](sample)
 
-[voice-quickstart-swift](https://github.com/twilio/voice-quickstart-android)
+[voice-quickstart-android](https://github.com/twilio/voice-quickstart-android)
 
 ## Contributions
 
