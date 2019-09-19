@@ -10,6 +10,10 @@ Twilio Voice Android SDK binding for Xamarin
 ## How to Build
 
 ### Twilio.Voice Android 4.0.0 (June 28th, 2019)
+
+_Xbindings.ReLinker.Droid_ NuGet package needs to be added into your Android project.
+I'll add it as a dependency later.
+
 ```
 The aar is already included into this repostiory. So just build the project.    
 ```    
