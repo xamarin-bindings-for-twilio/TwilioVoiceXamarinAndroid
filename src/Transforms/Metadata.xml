@@ -37,6 +37,11 @@
     
     <remove-node
         path="/api/package[@name='mono.com.twilio.voice']/class[@name='Call_EventListenerImplementor']"/>
+
+    <attr path="/api/package[@name='com.twilio.voice']/
+        interface[@name='Call.Listener']/
+        method[@name='onCallQualityWarningsChanged']" 
+        name="abstract">true</attr>
     
 <!--     <attr
         path="/api/package[@name='mono.com.twilio.voice']/class[@name='Call_EventListenerImplementor']"

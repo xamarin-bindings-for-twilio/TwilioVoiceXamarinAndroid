@@ -4,12 +4,12 @@ Twilio Voice Android SDK binding for Xamarin
 
 [![NuGet][nuget-img]][nuget-link]
 
-[nuget-img]: https://img.shields.io/badge/nuget-4.0.0-blue.svg
+[nuget-img]: https://img.shields.io/badge/nuget-5.4.0-blue.svg
 [nuget-link]: https://www.nuget.org/packages/Twilio.Voice.Android.XamarinBinding
 
 ## How to Build
 
-### Twilio.Voice Android 4.0.0 (June 28th, 2019)
+### Twilio.Voice Android 5.4.0 (July 9th, 2020)
 
 _Xbindings.ReLinker.Droid_ NuGet package needs to be added into your Android project.
 I'll add it as a dependency later.
@@ -42,8 +42,6 @@ Download aar/jar version you needed from https://bintray.com/twilio/releases/voi
 ## Sample
 
 ####  I don't have C# version of twilio quickstart application, so I highly recommend you to read about using native library bindings for xamarin and check official Twilio quickstart guides.
-
-[delegate sample](sample)
 
 [voice-quickstart-android](https://github.com/twilio/voice-quickstart-android)
 
