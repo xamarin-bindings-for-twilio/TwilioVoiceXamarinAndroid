@@ -59,6 +59,9 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Xamarin.ReLinker">
+      <Version>1.4.3</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Jars\" />

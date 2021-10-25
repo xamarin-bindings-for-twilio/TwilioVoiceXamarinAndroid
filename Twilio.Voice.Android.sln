@@ -1,7 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio.Voice.Android", "Twilio.Voice.Android.csproj", "{930E6775-5169-4672-815A-B3208A067378}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twilio.Voice.Android", "src\Twilio.Voice.Android.csproj", "{930E6775-5169-4672-815A-B3208A067378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{D4B59886-86A6-496D-91DA-8A3524A827A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +15,9 @@ Global
 		{930E6775-5169-4672-815A-B3208A067378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{930E6775-5169-4672-815A-B3208A067378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{930E6775-5169-4672-815A-B3208A067378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B59886-86A6-496D-91DA-8A3524A827A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B59886-86A6-496D-91DA-8A3524A827A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B59886-86A6-496D-91DA-8A3524A827A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B59886-86A6-496D-91DA-8A3524A827A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
