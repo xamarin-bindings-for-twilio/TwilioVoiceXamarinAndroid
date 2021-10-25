@@ -28,7 +28,7 @@ namespace Sample
 
             if (!CheckPermissionGranted(Manifest.Permission.RecordAudio))
             {
-                RequestRecordAudioPermission();
+                ActivityCompat.RequestPermissions(this, new string[] { Manifest.Permission.RecordAudio }, REQUEST_RECORD_AUDIO);
             }
             else
             {
@@ -50,24 +50,6 @@ namespace Sample
 
 
         }
-
-        private void RequestRecordAudioPermission()
-        {
-            if (ActivityCompat.ShouldShowRequestPermissionRationale(this, Manifest.Permission.RecordAudio))
-            {
-                // Provide an additional rationale to the user if the permission was not granted
-                // and the user would benefit from additional context for the use of the permission.
-                // For example if the user has previously denied the permission.
-                ActivityCompat.RequestPermissions(this, new string[] { Manifest.Permission.RecordAudio } , REQUEST_RECORD_AUDIO);
-
-            }
-            else
-            {
-                // Camera permission has not been granted yet. Request it directly.
-                ActivityCompat.RequestPermissions(this, new string[] { Manifest.Permission.RecordAudio }, REQUEST_RECORD_AUDIO);
-            }
-        }
-
 
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
