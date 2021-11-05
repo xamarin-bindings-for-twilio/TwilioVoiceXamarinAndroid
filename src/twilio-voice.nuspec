@@ -2,10 +2,10 @@
 <package >
   <metadata>
     <id>Twilio.Voice.Android.XamarinBinding</id>
-    <version>5.4.0.0</version>
+    <version>6.0.0.0</version>
     <authors>twilio dkornev</authors>
     <owners>twilio</owners>
-    <projectUrl>https://github.com/dkornev/TwilioVoiceXamarinAndroid</projectUrl>
+    <projectUrl>https://github.com/xamarin-bindings-for-twilio/TwilioVoiceXamarinAndroid</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <title>Twilio Voice Android SDK</title>
     <summary>Twilio Voice Android SDK binding for Xamarin Android</summary>
@@ -20,6 +20,6 @@
     <!-- Optional 'files' node -->
     <files>
         <!--Android-->
-        <file src="bin/Release/TwilioVoice.Android.dll" target="lib/MonoAndroid10/TwilioVoice.Android.dll" />
+        <file src="bin/Release/TwilioVoice.Android.dll" target="lib/MonoAndroid11/TwilioVoice.Android.dll" />
     </files>
 </package>
