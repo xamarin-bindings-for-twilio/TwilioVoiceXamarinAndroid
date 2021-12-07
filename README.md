@@ -4,12 +4,12 @@ Twilio Voice Android SDK binding for Xamarin
 
 [![NuGet][nuget-img]][nuget-link]
 
-[nuget-img]: https://img.shields.io/badge/nuget-6.0.0-blue.svg
+[nuget-img]: https://img.shields.io/badge/nuget-6.0.2-blue.svg
 [nuget-link]: https://www.nuget.org/packages/Twilio.Voice.Android.XamarinBinding
 
 ## How to Build
 
-### Twilio.Voice Android 6.0.0 (November 2nd, 2021)
+### Twilio.Voice Android 6.0.2 (November 19nd, 2021)
 
 _Xbindings.ReLinker.Droid_ NuGet package needs to be added into your Android project.
 I'll add it as a dependency later.

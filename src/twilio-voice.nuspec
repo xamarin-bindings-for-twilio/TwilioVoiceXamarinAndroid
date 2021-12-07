@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Twilio.Voice.Android.XamarinBinding</id>
-    <version>6.0.0.0</version>
+    <version>6.0.2.0</version>
     <authors>twilio dkornev</authors>
     <owners>twilio</owners>
     <projectUrl>https://github.com/xamarin-bindings-for-twilio/TwilioVoiceXamarinAndroid</projectUrl>
