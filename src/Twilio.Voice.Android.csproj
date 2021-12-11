@@ -12,7 +12,7 @@
     <RootNamespace>TwilioVoice.Android</RootNamespace>
     <AssemblyName>TwilioVoice.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidClassParser>class-parse</AndroidClassParser>
   </PropertyGroup>
   <PropertyGroup Condition="$(Configuration.Contains('Debug'))">
@@ -60,14 +60,14 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Xamarin.ReLinker">
-      <Version>1.4.3</Version>
+      <Version>1.4.4</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Jars\" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\voice-android-5.6.2.aar" />
+    <LibraryProjectZip Include="Jars\voice-android-6.0.2.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
